@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&display=swap');
+
+body {
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid {
+    display: grid;
+}
+
+.width60 {
+    width: 50%;
+}
+
+.profile {
+    margin-top: 50px;
+    .image {
+        text-align: center;
+        img {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    }
+    .name {
+        font-size: 50px;
+        font-weight: blod;
+        text-align: center;
+    }
+    .summary {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 1.7rem;
+        line-height: 1.5;
+    }
+}
+
+a {
+    color: #0070f3;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.post-date {
+    margin: 5px 0px 15px 0px;
+    color: #666
+}
